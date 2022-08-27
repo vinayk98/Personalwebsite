@@ -1,0 +1,31 @@
+
+.footer{
+    background-color: #8888c5;
+    padding: 3rem;
+}
+
+.copyrights{
+    font-size: small;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footerLinks{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+
+@media only screen and (max-width: 450px) {
+    .footerLinks{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 1rem;
+        margin-top: 3rem;
+
+    }
+  }
